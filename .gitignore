@@ -1,0 +1,25 @@
+# Dependências e build
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Variáveis de ambiente (segredos)
+.env
+.env.*
+!.env.example
+!.env.test.example
+
+# Vercel CLI (vínculo local com o projeto)
+.vercel
+
+# Logs e SO
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
